@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@400;500;600&display=swap');
+
 * {
   padding: 0;
   margin: 0;
@@ -5,7 +7,7 @@
 }
 
 body {
-  font-family: Tox Typewriter, sans-serif;
+  font-family: 'Noto Serif Display', serif;
   background: #e6e6e6;
 }
 
