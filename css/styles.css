@@ -361,12 +361,12 @@ nav {
 
 .speach1 {
   width: 20%;
-  z-index: 20;
+  z-index: 5;
 }
 
 .speach2 {
   width: 20%;
-  z-index: 20;
+  z-index: 5;
 }
 
 .fade-in-speach.is-visible {

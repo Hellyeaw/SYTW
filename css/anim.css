@@ -413,8 +413,8 @@
     margin-bottom: 6em;
   }
 
-  .title h1 {font-size: 2em;}
-  .subtitle h1 { font-size: 2em;}
+  .title h1 {font-size: 1.3em;}
+  .subtitle h1 { font-size: 1.3em;}
 
   .typewriter {
     border-right: .13em solid orange;
@@ -427,7 +427,7 @@
     }
 
     to {
-      width: 99%;
+      width: 80%;
     }
   }
 
@@ -439,7 +439,7 @@
   }
 
   .first-chapter-title h2 {
-    font-size: 1.2em;
+    font-size: 1em;
   }
 
   .first-chapter-title p {
@@ -475,23 +475,36 @@
 
   .firstchap-p2 {
     padding: 0 1em;
-    grid-gap: 30px;
+    grid-gap: 0;
     grid-auto-columns: minmax(10px, auto);
+    height: 60vh;
   }
 
   .soccer-3-back {
     grid-column: 2/4;
     grid-row: 1/2;
+    height: 160%;
   }
 
   .soccer-3 {
-    width: 80%;
-    padding-left: 3em;
+    width: 65%;
+    padding-left: 5.5em;
+    height: 110%;
+  }
+
+  .soccer-4 {
+    width: 70%;
+    padding-top: 7em;
   }
 
   .soccer-5-bubbles {
-    height: 20vh;
+    height: 30vh;
     margin: 1em;
+  }
+
+
+  .speach-bubbles-div {
+    margin: 4em 0;
   }
 
   .next-chapter a {font-size:0.9em;}
@@ -594,11 +607,12 @@
   }
 
   .kam-contribution {
-    margin-bottom: 13em;
+    margin-bottom: 8em;
   }
 
   .my-contrib, .kam-contrib {
     font-size: 0.7em;
+    padding: 0 0.4em;
   }
 
   .my-contrib-links.is-visible {
@@ -607,7 +621,7 @@
 
   /* History */
   .history-title-1 {
-    font-size: 1em;
+    font-size: 0.9em;
     padding: 0.5em 0.3em;
     margin: 0.3em 0;
   }
@@ -622,7 +636,7 @@
     }
 
     .action-text h4 {
-      font-size: 1em;
+      font-size: 0.9em;
       padding: 0.3em 0 0;
     }
 
