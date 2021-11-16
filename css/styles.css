@@ -768,14 +768,16 @@ nav {
 }
 
 .chap2-textx {
+  grid-column: 2/6;
   grid-row: 1/2;
+  height: 17vh;
 }
 
 .school {
   grid-column: 3/7;
   grid-row: 2/3;
   width: 100%;
-  margin-top: 2em;
+  padding-top: 3.5em;
 }
 
 .school-text-1 {
